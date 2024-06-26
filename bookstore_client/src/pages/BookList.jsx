@@ -37,7 +37,6 @@ function BookList() {
   return (
     <div className="container">
       <h2>Book List</h2>
-      {/* <div> */}
         <input
           type="text"
           value={search}
@@ -45,7 +44,6 @@ function BookList() {
           placeholder="Search by name or description"
           className="input-search"
         />
-      {/* </div> */}
       <table>
         <thead>
           <tr>

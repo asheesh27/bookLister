@@ -1,11 +1,9 @@
-/* BookList.css */
-
 .container {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center horizontally */
-    padding-top: 20px; /* Adjust top padding for spacing */
-    align-items: flex-start; /* Align items to the top of the container */
+    align-items: center; 
+    padding-top: 20px; 
+    align-items: flex-start; 
   }
   
   .input-search {
@@ -14,30 +12,30 @@
     border: 1px solid #ccc;
     border-radius: 0.25rem;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Center aligns text */
+    text-align: center; 
   }
   
   .input-search::placeholder {
-    text-align: center; /* Center aligns placeholder text */
+    text-align: center; 
   }
   
   table {
     width: 70%;
     border-collapse: collapse;
     margin: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
   }
   
   table,
   th,
   td {
-    border: 1px solid #ddd; /* Border style for table cells */
+    border: 1px solid #ddd; 
     padding: 8px;
-    text-align: center; /* Center aligns text */
+    text-align: center; 
   }
   
   th {
-    background-color: #f2f2f2; /* Background color for table headers */
+    background-color: #f2f2f2; 
   }
   
   .pagination {
